@@ -13,7 +13,6 @@ import { Dimensions, Image, SafeAreaView, ScrollView, StyleSheet, Text, Touchabl
 import BottomSheet, { BottomSheetView } from '@gorhom/bottom-sheet';
 
 
-
 export const App = () =>
 {
   const sheetRefSize = useRef<BottomSheet>(null);
@@ -108,15 +107,15 @@ export const App = () =>
           <View style={styles.imageContainer}>
             <ScrollView contentContainerStyle={styles.imageScrollContent} style={styles.imageScroll} horizontal={true} showsHorizontalScrollIndicator={true}>
               <Image
-                source={{ uri: 'https://s3-alpha-sig.figma.com/img/f0be/0cb1/d7e6b11c7121967f9dae4cd2af210c30?Expires=1731283200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=QzlfOuRW5Y4~u7eCC9LrL4fXN1K9qAyirpy4g9SpTCSFx4CSnfpkHlyHnZpti3vJ5m4mEbdyDdwAQ~rz4u~lWABwgm~gKAwsMCF~mH9rJ3zhtksWzblPS5r0sd8LT1mJDCZ5bncNWRKf--bnJDhTRtrX5826GnbdRIV1FoZPwYFKgrI7TPH9undo0bxHOAU29JP3agOQyk15Xh4STWH8ea-fgikjIgu1Sntm4enokpGkjR9BRMWzFseGXK-C~ZRCEI5Zq5T~mTzLQbGqFpDQSkJMb61N0YJZok~khERdnvsIv7TwqWAGI8MU2QfFMpJ0Q2UHfspZ0vOdmO7u4TbVsw__' }}
+                source={{ uri: 'https://s3-alpha-sig.figma.com/img/f0be/0cb1/d7e6b11c7121967f9dae4cd2af210c30?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=oTzZ~WoG~6SHHUGZbH~4UHS5~YNIypRtRJc6ZJyvlOl7MIEkBMMtNF~-5hD5Eg2PCP~V9JcGLOIz4T71pOr24OT5fzKDosfSM2LZ4OaemUpthALzBidKH128hLYhA-IFFEzuwCN7HM4WVB52JNhSS7~A9MZIUpcM84p2Q7KfwpG5UwHNVScqdfTnTXGLAuTbsdbCQVUp3BNMErT~EgNq7-L0FfmhriJ92I7R9OdR8JGO1KOJoSvu2acQahvByRuYZ9d5RBJE81t5bDP6vYDUosB4djw0qDmQ6-xcICQ6AQgSjbw5ukS-g6y11KAHIhGBA5fbStYykK~WboHxN7b2GA__' }}
                 style={styles.productImage}
               />
               <Image
-                source={{ uri: 'https://s3-alpha-sig.figma.com/img/8dbe/29ef/7cc2cda6d7d7db4c7eee982642d6f9a7?Expires=1731283200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=TQJwcYGoC6Ne-kwNgIylqQDIePwBYuggBynKGUILjiOOZXQ-PmzE9aEfT1qN0C3ht0shtuHjGVm-PWOFIUlZLNw3G1csdl8o5A4ioX~AbvzkJoa7JGiZlZPcQcbZwSAo6LIJWO2EoX2J4nPMpIvCushQbVa-v9Fy3YPFPovhKvG1kLGSL2xQfAkrdkbqEz9at5vR2t016YjpbIBqQTI-GFDQ3vcX2tGSaxp2zdi4Nt7Ch2YwSt461c3CWsaiKJ84tvFFpxhRSU3MlcXjXKSkccZgboAp8qbm6FJR0M9~8uO~pucG9JerpklC4-z-eokIvySRPIl~S9P3NGjjU46jCg__' }}
+                source={{ uri: 'https://s3-alpha-sig.figma.com/img/8dbe/29ef/7cc2cda6d7d7db4c7eee982642d6f9a7?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=fGYF2Jg36x1U87ieHBAwOMTVXhYb6HpGWKU3PhB9A4Avbv~ZYRxyJ-EvKa21XHkoal-Jul6mdvFuG4hqXC~BiC2a4h7uCjjfjAyakpSrgRBtfuSK1j4g5iJtlUffI7N6S8zNXCbFAnsltZv6uykfS-TYBh4PJ~iVZkJdEHKFmakVfzZNP44DQ7WHPZLHguCDO7HSaH9dHmjHuIb4QvQozT~sz2KkNRsNgogz6h7km8PffYPtSBWteeYOljiHp4iZ7e8hbeRwuNMEYg8nkDCIjhyHTd5WNYRvIwu1LKZdrOnXqEni0Q3SPnBSQnbxOO3mC88OEK5mmqljRa~q4NNSnA__' }}
                 style={styles.productImage}
               />
               <Image
-                source={{ uri: 'https://s3-alpha-sig.figma.com/img/44ba/888c/fb4ba715388632c08bcead8fe7d7cbb8?Expires=1731283200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=IiwRKQmP68W8uB73wuESTve-QTQV7PCdGQv9OqNP32EzVBow-XXPto6nknRfTSh6Dogs93JEYlnBNxdAj18CpibSfmmikA9Xk~WOiNdlVeG5WJnPdFdToeLMu694oF~k7MXqdTogsLFQocje6LhGiALpx5peg3PAxx-fALsWYLw2AyZ-fhh1sMFesZRABWy2qHZms5P1YD-yVLatqyMASVioIfWtoZWrOhywRFJqgIOiYhoaP0kxhkGqn1U~4kEzZViwhZjjDHM91Fda89bxxlj2ca0v22trP-pNyAakHjSizAeStAPruU0hQ3Ur8pSmHp7RE~MwEfSRFO7C--X1yw__' }}
+                source={{ uri: 'https://s3-alpha-sig.figma.com/img/44ba/888c/fb4ba715388632c08bcead8fe7d7cbb8?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=PIS3XXi7mu8m6SyxkTLFAjucjvoHRKYO9IPta2YBaRTv17Gs0BNFgju~7uiCsOR5bvE48g-db1Oc2qVfTgo0-kDrIwvd4HtFBtBG2O1o8lueD1mKAW2MGIJCKPwxJoQD058OvONGqUy-OSeAuuVhZ2DpcalKzgeUcEa-4pkIntecClaGO-upC9T8g5HN8a3ksvqYjMciEeBCk0mi4qq72OrAxSd9rg6QfR0S4Rd6sNzVHpQzhg3KQTg5J9MsnzLGxX-qCd-eeEXnp482w-Ba9ZojO93jUrk25HTvi7LXL~5YufRFZP5vazae9AR0na5nH7mQQbkt9iiXlhIrDiZC8g__' }}
                 style={styles.productImage}
               />
             </ScrollView>
@@ -213,17 +212,19 @@ export const App = () =>
             <Text style={styles.addToBagText}>Add to Bag</Text>
           </TouchableOpacity>
 
+          {isBottomSheetOpen && <View style={styles.overlay} />}
+
           <BottomSheet
-          ref={sheetRefSize}
-          index={-1}
-          style={styles.bottomSheet}
-          handleComponent={() => 
-          <View style={styles.bottomSheetTitle}>
-            <Text style={styles.bottomSheetText}>Size</Text>
-            <TouchableOpacity onPress={handleCloseSize}>
-              <X></X>
-            </TouchableOpacity>
-          </View>}
+            ref={sheetRefSize}
+            index={-1}
+            style={styles.bottomSheet}
+            handleComponent={() => 
+            <View style={styles.bottomSheetTitle}>
+              <Text style={styles.bottomSheetText}>Size</Text>
+              <TouchableOpacity onPress={handleCloseSize}>
+                <X></X>
+              </TouchableOpacity>
+            </View>}
           >
           <BottomSheetView style={styles.bottomSheetView}>
             {sizes.map((storageSize) => (
@@ -480,7 +481,8 @@ const styles = StyleSheet.create({
   quantityButtonContainer: {
     flexDirection: 'row',
     alignItems: 'center',
-    gap: 23
+    justifyContent: 'space-between',
+    width: Dimensions.get('window').width * 0.3384,
   },
   quantityButton: {
     padding: 10,
@@ -504,16 +506,23 @@ const styles = StyleSheet.create({
     color: '#FFFFFF',
     fontWeight: 400,
   },
+  overlay: {
+    ...StyleSheet.absoluteFillObject,
+    backgroundColor: '#27272780',
+    elevation: 1,
+  },
   bottomSheet: {
     borderTopRightRadius: 16,
-    borderTopLeftRadius: 16
+    borderTopLeftRadius: 16,
+    elevation: 2
   },
   bottomSheetTitle: {
     paddingVertical: 14,
     paddingHorizontal: 34,
     flexDirection: 'row',
     justifyContent: 'flex-end',
-    gap: Dimensions.get('window').width * 0.3
+    gap: Dimensions.get('window').width * 0.3,
+    zIndex: 2
   },
   bottomSheetText: {
     fontSize: 24,
