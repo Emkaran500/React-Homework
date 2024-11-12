@@ -1,0 +1,13 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/Circular-Std-Medium.ttf",
+      "sha1": "1cf1bc631570ea7fcef96495bdc1ee59946ff0c8"
+    },
+    {
+      "path": "src/assets/fonts/Gabarito-Bold.ttf",
+      "sha1": "02604d997d806fe155ceaff9bcc4fbdf2896e827"
+    }
+  ]
+}
